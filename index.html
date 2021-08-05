@@ -1,1 +1,28 @@
-
+<html>
+    <head>
+        <title> Website Tutorial</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html"> Main</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="movies.html">Movies</a>
+                <a href="shows.html">Shows</a>
+                <a href="toys.html">Toys</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+            <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+            <h1 class="title"> Sidd's Test Webpage</h1>
+        </div>
+    </body>
+</html>
