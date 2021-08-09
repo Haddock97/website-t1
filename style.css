@@ -7,31 +7,35 @@
 .container{
     height: 100%;
     width: 100%;
-    background-image: url("bg/hellokitty-1.png");
+    background-image: url("bg/bg-1.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 110%;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(242, 243, 243);
 }
 
 .sidenav {
-    height: 50%;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(253, 170, 206);
+    background-color: rgb(53, 59, 57);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
   }
   
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: rgb(242, 243, 243);
     display: block;
     transition: 0.3s;
 }
@@ -65,41 +69,8 @@
     padding: 5px;
 }
 
-.movies {
-    width: 23%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-}
-
-.moviesText {
-    border-style: none;
-    text-align: center;
-    background-color: rgb(255, 106, 4);
-    color: black;
-    border-radius: 15px;
-    padding: 5px;
-}
-
-.title {
-    text-align: center;
-    font-size: 50px;
-}
-
-.shows {
-    width: 23%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-}
-
-.showsText {
-    border-style: none;
-    text-align: center;
-    background-color: rgb(255, 106, 4);
-    color: black;
-    border-radius: 15px;
-    padding: 5px;
+.menu {
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(242, 243, 243);
 }
